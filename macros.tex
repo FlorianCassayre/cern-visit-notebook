@@ -1,0 +1,13 @@
+\newcommand{\fullpageimage}[2][]{%
+    \clearpage
+    \vspace*{\fill}
+    \begin{center}
+        \ifx\relax#1\relax
+            \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{#2}
+        \else
+            \includegraphics[width=\textheight,height=\textwidth,keepaspectratio,angle=90]{#2}
+        \fi
+    \end{center}
+    \vspace*{\fill}
+    \clearpage
+}
