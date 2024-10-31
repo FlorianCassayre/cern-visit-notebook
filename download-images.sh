@@ -5,6 +5,8 @@ cd "$(dirname "$0")"
 
 cd images
 
+curl 'https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/CERN_logo.svg/2048px-CERN_logo.svg.png' -o cern-logo.png
+
 curl 'https://cds.cern.ch/record/2800984/files/CCC-v2022.png?subformat=icon-1440' -o accelerator-complex.png
 curl 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Standard_Model_of_Elementary_Particles-fr.svg/2560px-Standard_Model_of_Elementary_Particles-fr.svg.png' -o standard-model.png
 curl 'https://cds.cern.ch/record/1700455/files/fig_LHC_area_overview.png' -o lhc-diagram-iso.png

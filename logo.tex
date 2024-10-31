@@ -1,0 +1,16 @@
+\definecolor{cernblue}{HTML}{1e59ae}
+
+\setlength{\fboxsep}{-0.5pt}
+
+\clearpage
+\pagecolor{cernblue}
+\begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=center] at (current page.center) {
+        \colorbox{white}{%
+            \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{images/cern-logo.png}%
+        }
+    };
+\end{tikzpicture}
+
+\clearpage
+\pagecolor{white}
