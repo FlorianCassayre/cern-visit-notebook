@@ -52,3 +52,12 @@ curl 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Table_isotopes_e
 curl 'https://www.chappatte.com/sites/default/files/styles/thumb/public/import_ld/I111216c.jpg' -o chappatte.jpg
 
 curl 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/BosonFusion-Higgs.svg/1280px-BosonFusion-Higgs.svg.png' -o higgs-feynman-diagram.png
+
+curl 'https://lhc-commissioning.web.cern.ch/schedule/images/2024/LHC-schedule-Nov24.png' -o lhc-schedule.png
+curl 'https://voisins.web.cern.ch/sites/default/files/inline-images/Captura%20de%20pantalla%202023-02-27%20a%20las%2011.43.46.png' -o timeline.png
+curl 'https://cds.cern.ch/record/2935496/files/HL-LHC-Schedule.png' -o hl-lhc-schedule.png
+
+curl 'https://visit.cern/sites/default/files/inline-images/CERN_Science_Gateway_Visitors_Access_Map.png' -o sg-map.png
+
+curl 'https://cds.cern.ch/record/2692402/files/Poster-2019-761.pdf' -o electricity.pdf
+curl 'https://cds.cern.ch/record/2872838/files/CERN-Brochure-2023-002-Eng.pdf' -o facts.pdf
